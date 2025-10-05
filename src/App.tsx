@@ -300,8 +300,16 @@ function App() {
             </li>
           </ul>
         </div>
-      </div>
+        <div className="mt-8 text-center text-gray-500 text-sm no-print">
+          <a
+            href="https://github.com/Silverquark/traveltonies"
+            className="flex items-center justify-center gap-1"
+          >
+            View Source on GitHub
+          </a>
+        </div>
     </div>
+      </div>
   );
 }
 
