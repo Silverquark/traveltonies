@@ -24,7 +24,7 @@ interface TonieSelectorProps {
 }
 
 export const DEFAULT_TONIES_URL =
-  "https://raw.githubusercontent.com/toniebox-reverse-engineering/teddycloud/refs/heads/master/contrib/config/tonies.json";
+  "https://raw.githubusercontent.com/toniebox-reverse-engineering/tonies-json/release/tonies.json";
 
 // Fetch function for tonies
 const fetchTonies = async (url: string): Promise<Tonie[]> => {
